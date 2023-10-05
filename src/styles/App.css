@@ -1,1 +1,26 @@
-
+.nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 3vw;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.mainList{
+    list-style: none;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+}
