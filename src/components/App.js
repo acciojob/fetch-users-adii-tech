@@ -34,21 +34,21 @@ let responce=[];
             <li>Avatar</li>
           </ul>
         </nav>
-        <ul className="mainList"> {
+        <table className="mainList"> {
       data && 
         data.map(ele=>(
-          <li><div className="container"><ul className="list">
-            <li>{ele.first_name}</li>
-            <li>{ele.last_name}</li>
-            <li>{ele.email}</li>
-            <li><img src={ele.avatar}></img></li>
-            </ul>
-            </div>
-            </li>
+          <tr>
+            <td>{ele.first_name}</td>
+            <td>{ele.last_name}</td>
+            <td>{ele.email}</td>
+            <td><img src={ele.avatar}></img></td>
+          
+            
+            </tr>
             
             ) )
 
-     }</ul>
+     }</table>
     </div>
   )
 }
