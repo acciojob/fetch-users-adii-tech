@@ -24,7 +24,7 @@ let responce=[];
         {/* Do not remove the main div */}
         <div>
           <h2>Blue Whales</h2>
-          <button classname="btn" onClick={()=>setData(responce.data.data)}>Get User List</button>
+          <button className="btn"  onClick={()=>setData(responce.data.data)}>Get User List</button>
         </div>
         <nav className="navbar">
           <ul className="nav">
