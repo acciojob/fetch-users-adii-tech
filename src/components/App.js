@@ -35,7 +35,7 @@ let responce=[];
           </ul>
         </nav>
         <table className="mainList"> {
-      data && 
+      data ?
         data.map(ele=>(
           <tr>
             <td>{ele.first_name}</td>
@@ -46,7 +46,7 @@ let responce=[];
             
             </tr>
             
-            ) )
+            ) ):<h1>No data found to Display</h1>
 
      }</table>
     </div>
